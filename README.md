@@ -1,2 +1,2 @@
 # gobarber-frontend
-Aplicação para agendamento de beleza
+Aplicação para agendamento de serviços de beleza
