@@ -26,6 +26,12 @@ export default (state = initialState, action) => {
                 break;
             }
 
+            case '@auth/SIGN_OUT': {
+                draft.token = null;
+                draft.signed = false;
+                break;
+            }
+
             default:
                 return state;
         }

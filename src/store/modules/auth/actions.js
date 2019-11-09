@@ -16,3 +16,7 @@ export const signUpRequest = (name, email, password) => ({
 export const signFailure = () => ({
     type: '@auth/SIGN_FAILURE'
 });
+
+export const signOut = () => ({
+    type: '@auth/SIGN_OUT'
+});
